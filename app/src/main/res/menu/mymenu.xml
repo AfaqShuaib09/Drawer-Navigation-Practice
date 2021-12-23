@@ -2,12 +2,12 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/webActivity"
-        android:title="Socail Links"
+        android:title="Facebook"
         android:icon="@drawable/ic_baseline_web_24"
         />
     <item
         android:id="@+id/Activity2"
-        android:title="Screen 2"
+        android:title="User Detail"
         android:icon="@drawable/ic_baseline_person_pin_24"
         />
     <item

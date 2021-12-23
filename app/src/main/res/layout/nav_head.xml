@@ -6,28 +6,32 @@
     android:background="@color/kelly_green"
     android:orientation="vertical"
     >
+
     <ImageView
         android:layout_width="80dp"
         android:layout_height="80dp"
-        android:src="@drawable/ic_baseline_person_pin_24"
-        >
-    </ImageView>
+        android:layout_marginBottom="2dp"
+        android:paddingLeft="10dp"
+        android:src="@drawable/ic_baseline_person_pin_24"></ImageView>
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:text="Welcome Afaq"
         android:textColor="@color/white"
         android:textSize="30dp"
-        android:textStyle="bold"
-        android:text="Welcome Afaq"
-        />
+        android:textStyle="bold" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingTop="3dp"
+        android:text="Software Engineer"
         android:textColor="@color/white"
         android:textSize="15dp"
-        android:textStyle="italic"
-        android:text="Software Engineer"
-        />
+        android:textStyle="italic" />
 
 
 </androidx.appcompat.widget.LinearLayoutCompat>
